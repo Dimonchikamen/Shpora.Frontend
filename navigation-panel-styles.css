@@ -1,0 +1,48 @@
+.navigation-panel {
+    margin: 1vh 0;
+    background-color: white;
+}
+
+.navigation-panel ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.navigation-panel ul li {
+    margin: 0px -7px 0 0;
+    display: inline-block;
+    background-color: white;
+    border: gray 1px solid;
+}
+
+.navigation-panel a {
+    display: block;
+    padding: 0 10px;
+    color: rgb(128, 128, 128);
+    font-size:20px;
+    line-height: 3vw;
+    text-decoration: none;
+}
+
+.navigation-panel a:hover {
+    background-color: lightgrey;
+}
+
+.navigation-panel ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.navigation-panel ul li:hover > ul {
+    display:inherit;
+}
+
+.navigation-panel ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
