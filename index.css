@@ -1,32 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Libre+Baskerville');
-header {
-    border-bottom: 1px gray solid;
-}
 
 body {
-  margin: 0;
-  height: 100vh;
-  position: relative;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header > .navigation {
+    padding-left: 8px;
+    height: 100%;
+    display: flex;
+}
+
+.page-header .page-logo-container {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.page-header .page-logo-container > a {
+    color: #366af3;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
+main {
+    padding: 3% 10%;
+}
+
+main > div {
+    background-color: white;
+    border-radius: 4%;
+    padding: 40px;
 }
 
 footer {
     border-top: 1px gray solid;
-}
-
-.page-header {
-    padding: 1vh 1vw;
-    display: flex;
-    align-items: center;
-}
-
-.page-header > .page-logo-container {
-    width: 10%;
-}
-
-.page-header > .navigation-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .page-footer {

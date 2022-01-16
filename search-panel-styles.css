@@ -1,5 +1,5 @@
 .search-panel-container {
-    margin-right: 7vw;
+  margin-right: 3%;
 }
 
 .search-panel-container * {
@@ -20,8 +20,8 @@
   border: 2px solid darkgrey;
   border-radius: 5px 0 0 5px;
   outline: none;
-  background: #F9F0DA;
-  color: #9E9C9C;
+  background: #f2f2f2;
+  color: #666666;
 }
 
 .search-panel-container button { 
