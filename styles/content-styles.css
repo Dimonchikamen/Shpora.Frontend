@@ -1,0 +1,12 @@
+main img {
+    float: right;
+}
+
+main .ghost-gang {
+    width: 60%;
+    min-width: 350px;
+}
+
+main .ghost {
+    width: 20%;
+}

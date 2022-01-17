@@ -1,0 +1,35 @@
+.page-footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.page-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page-footer > .footer-navigation {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+}
+
+.page-footer > .footer-navigation > .navigation-element h4 {
+    margin-bottom: 4%;
+}
+
+.page-footer > .footer-navigation > .navigation-element ul li {
+    padding: 5% 0;
+}
+
+.page-footer > .footer-navigation > .navigation-element a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.page-footer > .footer-navigation > .navigation-element a:hover {
+    text-decoration: underline;
+}
